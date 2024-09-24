@@ -5609,6 +5609,20 @@ Click on the labels to display the definitions. Click buttons to
     </ul>
   </div>
 
+  <button class="myaccordion"><i class="fa fa-map-pin"></i> o2::framework::V0full</button>
+  <div class="panel">
+    <ul>
+        <li>o2::framework::V0full = soa::Join<o2::framework::aod::V0Datas, o2::framework::aod::V0Covs></li>
+    </ul>
+  </div>
+
+  <button class="myaccordion"><i class="fa fa-map-pin"></i> o2::framework::V0fCfull</button>
+  <div class="panel">
+    <ul>
+        <li>o2::framework::V0fCfull = soa::Join<o2::framework::aod::V0fCDatas, o2::framework::aod::V0fCCovs></li>
+    </ul>
+  </div>
+
   <button class="myaccordion"><i class="fa fa-map-pin"></i> o2::framework::MyTracksWMc</button>
   <div class="panel">
     <ul>
@@ -6005,6 +6019,13 @@ Click on the labels to display the definitions. Click buttons to
   <div class="panel">
     <ul>
         <li>o2::framework::expressions::CandDstarMcGen = soa::Join<o2::framework::expressions::soa::Join></li>
+    </ul>
+  </div>
+
+  <button class="myaccordion"><i class="fa fa-map-pin"></i> o2::framework::expressions::std</button>
+  <div class="panel">
+    <ul>
+        <li>o2::framework::expressions::std = o2::framework::expressions:::array</li>
     </ul>
   </div>
 

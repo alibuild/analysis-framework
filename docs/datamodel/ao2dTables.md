@@ -6523,6 +6523,8 @@ For better overview the tables are grouped into the following categories: \| [Ge
         <li>o2::aod::Decay3Body = o2::aod::Decay3Bodys::iterator</li>
         <li>o2::aod::Decay3BodysLinked = soa::Join<o2::aod::Decay3Bodys, o2::aod::Decay3BodyDataLink></li>
         <li>o2::aod::Decay3BodyLinked = soa::Join<o2::aod::Decay3Bodys, o2::aod::Decay3BodyDataLink>::iterator</li>
+        <li>o2::aod::KFDecay3BodysLinked = soa::Join<o2::aod::Decay3Bodys, o2::aod::KFDecay3BodyDataLink></li>
+        <li>o2::aod::KFDecay3BodyLinked = soa::Join<o2::aod::Decay3Bodys, o2::aod::KFDecay3BodyDataLink>::iterator</li>
       </ul>
     </div>
     <table class=DataModel>

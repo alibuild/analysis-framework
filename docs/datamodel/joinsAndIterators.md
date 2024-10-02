@@ -5056,10 +5056,38 @@ Click on the labels to display the definitions. Click buttons to
     </ul>
   </div>
 
-  <button class="myaccordion"><i class="fa fa-map-pin"></i> o2::aod::StoredKFVtx3BodyData</button>
+  <button class="myaccordion"><i class="fa fa-map-pin"></i> o2::aod::KFVtx3BodyData</button>
   <div class="panel">
     <ul>
-        <li>o2::aod::StoredKFVtx3BodyData = o2::aod::StoredKFVtx3BodyDatas::iterator</li>
+        <li>o2::aod::KFVtx3BodyData = o2::aod::KFVtx3BodyDatas::iterator</li>
+    </ul>
+  </div>
+
+  <button class="myaccordion"><i class="fa fa-map-pin"></i> o2::aod::KFDecay3BodysLinked</button>
+  <div class="panel">
+    <ul>
+        <li>o2::aod::KFDecay3BodysLinked = soa::Join<o2::aod::Decay3Bodys, o2::aod::KFDecay3BodyDataLink></li>
+    </ul>
+  </div>
+
+  <button class="myaccordion"><i class="fa fa-map-pin"></i> o2::aod::KFDecay3BodyLinked</button>
+  <div class="panel">
+    <ul>
+        <li>o2::aod::KFDecay3BodyLinked = soa::Join<o2::aod::Decay3Bodys, o2::aod::KFDecay3BodyDataLink>::iterator</li>
+    </ul>
+  </div>
+
+  <button class="myaccordion"><i class="fa fa-map-pin"></i> o2::aod::McKFVtx3BodyLabel</button>
+  <div class="panel">
+    <ul>
+        <li>o2::aod::McKFVtx3BodyLabel = o2::aod::McKFVtx3BodyLabels::iterator</li>
+    </ul>
+  </div>
+
+  <button class="myaccordion"><i class="fa fa-map-pin"></i> o2::aod::McFullKFVtx3BodyLabel</button>
+  <div class="panel">
+    <ul>
+        <li>o2::aod::McFullKFVtx3BodyLabel = o2::aod::McFullKFVtx3BodyLabels::iterator</li>
     </ul>
   </div>
 
@@ -5609,6 +5637,20 @@ Click on the labels to display the definitions. Click buttons to
     </ul>
   </div>
 
+  <button class="myaccordion"><i class="fa fa-map-pin"></i> o2::framework::V0full</button>
+  <div class="panel">
+    <ul>
+        <li>o2::framework::V0full = soa::Join<o2::framework::aod::V0Datas, o2::framework::aod::V0Covs></li>
+    </ul>
+  </div>
+
+  <button class="myaccordion"><i class="fa fa-map-pin"></i> o2::framework::V0fCfull</button>
+  <div class="panel">
+    <ul>
+        <li>o2::framework::V0fCfull = soa::Join<o2::framework::aod::V0fCDatas, o2::framework::aod::V0fCCovs></li>
+    </ul>
+  </div>
+
   <button class="myaccordion"><i class="fa fa-map-pin"></i> o2::framework::MyTracksWMc</button>
   <div class="panel">
     <ul>
@@ -6005,6 +6047,13 @@ Click on the labels to display the definitions. Click buttons to
   <div class="panel">
     <ul>
         <li>o2::framework::expressions::CandDstarMcGen = soa::Join<o2::framework::expressions::soa::Join></li>
+    </ul>
+  </div>
+
+  <button class="myaccordion"><i class="fa fa-map-pin"></i> o2::framework::expressions::std</button>
+  <div class="panel">
+    <ul>
+        <li>o2::framework::expressions::std = o2::framework::expressions:::array</li>
     </ul>
   </div>
 
